@@ -61,11 +61,18 @@
 
 .App-Main {
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  justify-content: center;
+  grid-template-rows:auto;
   background-color: rgb(255, 18, 180);
   text-align: center;
   padding : 15px;
+  gap: 15px;
+}
+
+.App-ContentBox{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  padding: 10px;
+  background-color:rgb(219, 140, 38);
 }
 
 .App-content {
