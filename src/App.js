@@ -1,4 +1,3 @@
-import AdBanner from './components/AdBanner';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Main from './pages/Main';
@@ -8,9 +7,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <AdBanner/>
       <Main/>
-      <AdBanner/>
       <Footer/>
     </div>
   );

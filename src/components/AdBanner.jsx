@@ -1,6 +1,6 @@
 const AdBanner = () =>{
     return(
-        <div className="HorizontalAdds">
+        <div className="VerticalAdds">
             <p>Publicity</p>
             <p>Publicity</p>
             <p>Publicity</p>
