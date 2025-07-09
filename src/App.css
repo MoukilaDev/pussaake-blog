@@ -1,5 +1,15 @@
 .App {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.App-Main {
+  display: grid;
+  grid-template-rows:auto;
+  background-color: rgb(255, 18, 180);
   text-align: center;
+  padding : 15px;
+  gap: 15px;
 }
 
 .App-logo {
@@ -59,25 +69,21 @@
   background-color: rgb(32, 242, 120);
 }
 
-.App-Main {
-  display: grid;
-  grid-template-rows:auto;
-  background-color: rgb(255, 18, 180);
-  text-align: center;
-  padding : 15px;
-  gap: 15px;
-}
-
 .App-ContentBox{
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 5fr 1fr;
   padding: 10px;
   background-color:rgb(219, 140, 38);
 }
 
 .App-content {
   display: grid;
+  grid-column: 2;
+  max-width: 100%;
+  overflow: hidden;
   background-color: cadetblue;
+  width: 100%; /* Prevent scaling beyond the container */
+  max-width: 100%; /* Ensure content doesn't exceed its container */
 }
 
 .footer {
